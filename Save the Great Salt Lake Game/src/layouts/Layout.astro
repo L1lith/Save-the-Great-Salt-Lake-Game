@@ -1,14 +1,12 @@
 ---
 // Example: src/layouts/MySiteLayout.astro
 import "../styles/global.scss"
-import "../styles/Gentium.scss"
-import SmartImage from '../components/SmartImage'
 const {title} = Astro.props
 const pageClass = typeof Astro.props.class == 'string' ? ['page'].concat(Astro.props.class.split(' ')).filter(Boolean).join(' ') : 'page'
 ---
 <html lang="en">
   <head>
-    <title>{typeof title == 'string' ? title + ' - Lily Black' : 'Lily Black'}</title>
+    <title>{typeof title == 'string' ? title + ' - STGSLG' : 'Save the Great Salt Lake Game'}</title>
     <link rel="icon" type="image/x-icon" href="/img/pine.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="/fonts/gentium-subset.ttf" rel="preload" as="font">
