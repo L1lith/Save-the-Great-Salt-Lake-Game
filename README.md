@@ -1,3 +1,6 @@
+# Save The Great Salt Lake Game
+This game has been created as a virtual exploration of how we could save the Great Salt lake. Please read the license before choosing whether or not to play the game, and proceed with caution as IT IS NOT A PERFECT OR HYPER-REALISTIC SIMULATION. Huge thanks to James Griffing for giving me the tools I needed to make this game.
+
 ## License
 
 The Earth Stewardship MIT License (ESMIT)
