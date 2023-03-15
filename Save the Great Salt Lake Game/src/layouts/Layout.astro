@@ -1,0 +1,47 @@
+---
+// Example: src/layouts/MySiteLayout.astro
+import "../styles/global.scss"
+import "../styles/Gentium.scss"
+import SmartImage from '../components/SmartImage'
+const {title} = Astro.props
+const pageClass = typeof Astro.props.class == 'string' ? ['page'].concat(Astro.props.class.split(' ')).filter(Boolean).join(' ') : 'page'
+---
+<html lang="en">
+  <head>
+    <title>{typeof title == 'string' ? title + ' - Lily Black' : 'Lily Black'}</title>
+    <link rel="icon" type="image/x-icon" href="/img/pine.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="/fonts/gentium-subset.ttf" rel="preload" as="font">
+    <meta name="theme-color" content="#50c09a"/>
+  </head>
+  <body>
+    <style lang="scss">
+      @import "../styles/variables.scss";
+      main {
+        text-align: center;
+      }
+      .copyright {
+        margin-top: 2vmin;
+        color: white;
+        font-size: 0.75em;
+        text-shadow: 0 0 0.5vmin black;
+      }
+    </style>
+    <style lang="scss" is:global>
+      @import "../styles/variables.scss";
+      main > * {
+            margin: auto;
+            padding: 2vmin;
+
+            @media (max-width: $desktop-width) {
+                // Add some spacing when we disable the grid
+                margin-bottom: 5vmin;
+            }
+        }
+        </style>
+    <main class={pageClass}>
+      <slot />
+    </main>
+    <footer class="copyright">authored by Lily Black, Powered by <a href="https://astro.build/">Astro</a> and with much support from my friends and family</footer>
+  </body>
+</html>
