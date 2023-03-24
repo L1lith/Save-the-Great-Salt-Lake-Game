@@ -7,7 +7,7 @@ Description: A cooperative multiplayer role-playing game set in a fictional worl
 
 Objective: Secure your own survival and restore the lake's ecosystem by collaborating with other players, including Indigenous peoples, and utilizing resources. Success requires strategic decision-making, communication, and cooperation.
 
-Player Character: Characters have unique abilities, appearances, traits, and personalities based on their chosen role and specialization within the game. Some characters may represent Indigenous peoples with valuable knowledge and skills.
+Player Character: Characters have unique abilities, appearances, traits, and personalities based on their chosen role and specialization within the game. Some characters may represent Indigenous peoples with valuable knowledge and skills. One unique specialization is the prompt engineer, who uses artificial intelligence to guide the other players.
 
 Starting Location: Players choose their own starting location from a list of pre-defined points on the in-game map.
 
