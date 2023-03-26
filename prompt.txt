@@ -17,7 +17,7 @@ Game Mechanics: Resource management, questing, research, policy-making, and coop
 
 Interaction: Form alliances, trade resources, share information, participate in group quests, and vote on community decisions. Collaboration with Indigenous peoples is essential for success. Players can choose between cooperative, competitive, and solo game modes to suit their preferences.
 
-Map: A vast, diverse game world with various biomes, settlements, and points of interest inspired by the real-world Great Salt Lake and its surrounding areas. The game begins with the lake at a record low of 4,188 feet, and players must work together to restore it to a healthy elevation of 4,200 feet, covering more than 800 square miles of dry lake bed.
+Map: A vast, diverse game world with various biomes, settlements, and points of interest inspired by the real-world Great Salt Lake and its surrounding areas. The game begins with the lake at a record low of 4,188 feet, and players must work together to restore it to a healthy elevation of 4,200 feet, covering more than 800 square miles of dry lake bed. (Source: https://www.latimes.com/opinion/story/2023-02-04/great-salt-lake-disappearing-utah-water-diversions-agriculture-brine-shrimp-grebe-phalarope-toxic-dust)
 
 Auto Play: False
 
